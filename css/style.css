@@ -1,0 +1,136 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  background-color:hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+}
+/* End Global Rules */
+
+/* Start Section */
+.box {
+  width: 650px;
+  height: 500px;
+  border-radius: 2%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: "up up" "left right";
+  -webkit-border-radius: 2%;
+  -moz-border-radius: 2%;
+  -ms-border-radius: 2%;
+  -o-border-radius: 2%;
+  box-shadow: 1px 1px 10px 1px hsl(204, 43%, 93%);
+  margin: auto;
+  margin-top: 125px;
+}
+
+/* Start up */
+.up {
+  background-color: white;
+  padding-left: 32px;
+  padding-top: 30px;
+  grid-area: up;
+}
+
+.name-page-up {
+  color: hsl(179, 62%, 43%);
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.num-up {
+  color:hsl(71, 73%, 54%);
+  font-size: 18px;
+  text-shadow: 1px 1px 1px hsl(71, 73%, 54%);
+  font-weight: 400;
+}
+
+.title-up {
+  color: hsl(218, 22%, 67%);
+  padding-top: 30px;
+  font-weight: 400;
+}
+/* End up */
+
+/* Start left */
+.left {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  grid-area: left;
+  padding-left: 32px;
+  padding-top: 30px;
+  
+}
+
+.name-page-left {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.title-left {
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.num-left {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.num-left span{
+  font-size: 12px;
+  margin-left: 5px;
+  color: hsl(204, 43%, 93%);
+  font-weight: 400;
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  width: 280px;
+  margin-left: 20px;
+  text-align: center;
+  margin-left: -3%;
+  height: 50px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: none;
+  font-weight: 700;
+}
+/* End left */
+
+/* Start right */
+.right {
+  background-color: hsl(179deg 62% 43% / 80%);;
+  color: white;
+  grid-area: right;
+  padding-left: 32px;
+  padding-top: 30px;
+}
+
+.name-page-right {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.title-right {
+  color: hsl(204, 43%, 93%);
+  font-size: 14px;
+  width: 175px;
+  font-weight: 400;
+}
+/* End right */
+/* End Section */
